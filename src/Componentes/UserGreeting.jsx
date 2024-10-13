@@ -1,9 +1,14 @@
 // UserGreeting.js
-import React from 'react';
+function Saludo(props) {
+  return <h2>Hola, {props.nombre}!</h2>;
+}
 
-// Un componente que recibe props para mostrar un saludo personalizado
-const UserGreeting = ({ name }) => {
-  return <h2>¡Hola, {name}!</h2>;
-};
+function UserGreeting() {
+  return (
+    <div>
+      <Saludo nombre="Meybeline" />
+    </div>
+  );
+}
 
 export default UserGreeting;
