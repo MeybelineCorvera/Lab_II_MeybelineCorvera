@@ -1,70 +1,32 @@
-# Getting Started with Create React App
+# Mi Proyecto de React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Nombre: MEYBELINE ABIGAIL CORVERA CRUZ
+## Código estudiantil: U20240812
 
-## Available Scripts
+### Descripción del Proyecto:
+Este proyecto demuestra los conceptos básicos de React, como el uso de componentes, JSX, props, manejo de estado y eventos. Incluye un encabezado, un formulario, un contador y un componente que recibe props.
 
-In the project directory, you can run:
+## Instalación de React
+- Asegúrarse de tener Node.js instalado.
+- Usar el comando `npx create-react-app nombre-de-tu-proyecto` para crear el proyecto.
 
-### `npm start`
+### Instrucciones para Ejecutar el Proyecto:
+1. Clonar el repositorio.
+2. Instalar las dependencias utilizando el comando:
+3. Ejecutar la aplicación con el comando: npm install y luego npm start
+4. Abrir [http://localhost:3000/?] para ver la aplicación en el navegador.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Reflexión sobre lo Aprendido:
+- **JSX vs HTML**: JSX es una extensión de JavaScript que nos permite escribir elementos HTML dentro de JavaScript. Aunque se ve similar a HTML, JSX tiene algunas diferencias, como el uso de `className` en lugar de `class` y el hecho de que todos los elementos deben estar cerrados correctamente.
+- **Manejo de Estado**: Aprendí a usar `useState` para manejar cambios dinámicos en los componentes, como el contador y el formulario.
+- **Props en React**: Las props permiten pasar información entre componentes, manteniendo el flujo de datos unidireccional desde el componente padre hacia el hijo. Esto lo apliqué en el saludo personalizado.
+- **Flujo de Datos en React :React utiliza un flujo de datos unidireccional. Los datos siempre fluyen del componente padre al hijo.
+                             Ejemplo: En el componente 'App', el nombre se pasa como prop al componente 'Saludo'.
+- **Eventos en React**: Los eventos como `onClick` son fundamentales para interactuar con la interfaz. Los manejadores de eventos se definen como funciones dentro de los componentes.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Flujo de Datos Unidireccional:
+En React, los datos siempre fluyen de un componente padre a sus hijos. Por ejemplo, en este proyecto, el componente `UserGreeting` recibe la prop `name` desde el componente `App`. Esto asegura que los datos se manejen de manera predecible y controlada.
 
-### `npm test`
+### Lo que más me costó:
+Lo que mas me costo es subir el archivo en github.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
